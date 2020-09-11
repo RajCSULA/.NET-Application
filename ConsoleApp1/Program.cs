@@ -333,9 +333,6 @@ namespace ConsoleApp1
 
     }
 
-
-    //uncomment below to convert an image to base64string 
-
     //public class Program
     // {
     //    public static void Main(string[] args)
