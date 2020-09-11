@@ -17,7 +17,7 @@ namespace Texsperts.Controllers
 
         WorkoutEntities context = new WorkoutEntities();
 
-        //Get All Employees details
+        //Get All Employees
         [AcceptVerbs("GET")]
      
         [HttpGet]
