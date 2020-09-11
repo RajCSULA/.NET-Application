@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<title> My Application </title>
+<script src="https://code.angularjs.org/1.4.8/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Scripts/bootstrap.css" rel="stylesheet" />
+<script src="Jsfiles/Main.js"></script>
+<script src="Jsfiles/AboutController.js"></script>
+<script src="Jsfiles/HomeController.js"></script>
+<script src="Jsfiles/LoginController.js"></script>
+<script src="Jsfiles/RegistrationController.js"></script>
+<script src="Jsfiles/Services.js"></script>
+<script src="Jsfiles/ngProgress.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="Scripts/bootstrap.js"></script>
+<script src="Scripts/bootstrap.min.js"></script>
+<meta charset="utf-8" />
+<base href="/" />
+   
+
+</head>
+<body>
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Application</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav">
+                    <li><a href="Home">Home</a></li>
+
+                    <li>
+                        <a href="About">About Us</a>
+                    </li>
+                    <li>
+                        <a href="Login">Login</a>
+                    </li>
+                    <li>
+                        <a href="Registration">Registration</a>
+                    </li>
+                    <li>
+                        <a href="Contact">Contact</a>
+                    </li>
+                </ul>
+
+               
+</div>
+            </div>
+        </nav>
+
+   
+
+
+                <ng-view></ng-view>
+
+                <div>
+
+                    <footer class="container-fluid text-center">
+                        <div >
+                            Application - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+                        </div>
+                    </footer>
+                    <!-- /footer content -->
+
+
+                </div>
+
+  
+</body>
+</html>
